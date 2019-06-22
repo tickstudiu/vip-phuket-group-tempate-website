@@ -41,3 +41,8 @@
 .borderless{
     border: 0;
 }
+
+.item-list > li{
+    list-style: circle;
+    margin-left: 15px;
+}
