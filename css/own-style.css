@@ -33,3 +33,11 @@
 .bg-dark{
     background-color: #343a40;
 }
+
+.list-none{
+    list-style: none;
+}
+
+.borderless{
+    border: 0;
+}
