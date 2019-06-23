@@ -45,4 +45,20 @@
 .item-list > li{
     list-style: circle;
     margin-left: 15px;
+    transition: all 0.2s;
+}
+
+.item-list > li:hover{
+    list-style: circle;
+    margin-left: 22.5px;
+    transition: all 0.2s;
+}
+
+.item-list > li > a{
+    color: #ffc107;
+    transition: all 0.2s;
+}
+
+.item-list > li > a:hover{
+    color: #e0a800;
 }
