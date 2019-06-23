@@ -49,9 +49,7 @@
 }
 
 .item-list > li:hover{
-    list-style: circle;
-    margin-left: 22.5px;
-    transition: all 0.2s;
+    transform: translateX(10px);
 }
 
 .item-list > li > a{

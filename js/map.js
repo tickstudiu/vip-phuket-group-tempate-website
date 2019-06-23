@@ -3,14 +3,14 @@ google.maps.event.addDomListener(window, 'load', init);
                     function init() {
                         // Basic options for a simple Google Map
                         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                        var myLatlng = new google.maps.LatLng(-6.372251, 106.831649);
+                        var myLatlng = new google.maps.LatLng(7.9908933,98.3046498);
 					
 					  var mapOptions = {
                             // How zoomed in you want the map to start at (always required)
-                            zoom: 12,
+                            zoom: 19,
                             disableDefaultUI: true,
 							scrollwheel: false, 
-center: myLatlng, // New York
+                            center: myLatlng, // New York
 
                             // How you would like to style the map. 
                             // This is where you would paste any style found on Snazzy Maps.
