@@ -55,7 +55,8 @@
               <div class="left">
                 <div class="social-icons-subnav">
                   <div><i class="ti-mobile"></i>+66(0)76-615591</div>
-                  <div><i class="ti-email"></i><a href="mailto:info@vipphuketservices.com">info@vipphuketservices.com</a></div>
+                  <div><i class="ti-email"></i><a
+                      href="mailto:info@vipphuketservices.com">info@vipphuketservices.com</a></div>
                 </div>
               </div>
             </div>
@@ -170,14 +171,14 @@
                 <li class="filt-projects selected" data-project="*">ALL
                 </li>
 
-                <li class="filt-projects" data-project=".van">VAN 
+                <li class="filt-projects" data-project=".van">VAN
                 </li>
 
                 <li class="filt-projects" data-project=".car">CAR
                 </li>
 
                 <li class="filt-projects" data-project=".motorcycle">MOTORCYCLE
-                  </li>
+                </li>
               </ul>
             </div>
           </div>
@@ -249,9 +250,9 @@
                 </a>
               </div>
             </div>
-          <!-- gallery end -->
+            <!-- gallery end -->
+          </div>
         </div>
-      </div>
     </section>
     <!-- section projects end -->
 
@@ -269,15 +270,20 @@
 
             <div class="onStep" data-animation="fadeInUp" data-time="300" id="contact">
               <form action="#" class="row" id="form-contact" method="post" name="form-contact">
-                <select id="car-contact" name="car">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-                <input id="date-contact" name="date" type="datetime">
-                <input id="number-contact" name="number" placeholder="3" type="number">
+                <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                    <select class="form-control" id="selectvaricle">
+                      <optgroup label="SELECT ROOM">
+                        <option value="VAN">VAN</option>
+                        <option value="CAR">CAR</option>
+                        <option value="MOTORCYCLE">MOTORCYCLE</option>
+                      </optgroup>
+                    </select>
+                  </div>
+                  <div class="col-md-4 col-sm-12"><input type="text" name="date1" id="date1" class="form-control fox1"
+                      placeholder="DATE"></div>
+                  <div class="col-md-4 col-sm-12"><input id="personbook" name="personbook" placeholder="PERSON" type="text"></div>
+                </div>
                 <input id="name-contact" name="name" placeholder="your name" type="text">
                 <input id="email-contact" name="email" placeholder="your e-mail" type="text">
                 <textarea cols="50" id="message-contact" name="message" placeholder="your enquiry" rows="4"></textarea>
@@ -298,24 +304,25 @@
 
           <!-- address -->
           <div class="col-md-4 col-sm-6">
-              <h2>Our Address</h2>
-  
-              <!-- spacer -->
-              <div class="space-single"></div>
-  
-              <div class="wrapaddres onStep" data-animation="fadeInUp" data-time="600">
-                <address>
-                  <span>
-                    129 Park street,
-                    New York City, NY 10903</span>
-                  <span><strong>Phone :</strong> +66(0)76-615591 </span>
-                  <span><strong>Fax :</strong> +66(0)76-325399 </span>
-                  <span><strong>Email :</strong> <a href="mailto:info@vipphuketservices.com">info@vipphuketservices.com</a></span>
-                  <span><strong>Website :</strong> <a href="#">www.companyname.com</a></span>
-                </address>
-              </div>
+            <h2>Our Address</h2>
+
+            <!-- spacer -->
+            <div class="space-single"></div>
+
+            <div class="wrapaddres onStep" data-animation="fadeInUp" data-time="600">
+              <address>
+                <span>
+                  129 Park street,
+                  New York City, NY 10903</span>
+                <span><strong>Phone :</strong> +66(0)76-615591 </span>
+                <span><strong>Fax :</strong> +66(0)76-325399 </span>
+                <span><strong>Email :</strong> <a
+                    href="mailto:info@vipphuketservices.com">info@vipphuketservices.com</a></span>
+                <span><strong>Website :</strong> <a href="#">www.companyname.com</a></span>
+              </address>
             </div>
-            <!-- address end -->
+          </div>
+          <!-- address end -->
 
         </div>
       </div>
